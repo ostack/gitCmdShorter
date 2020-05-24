@@ -1,0 +1,1 @@
+mkdir -p $HOME/bin;cp ./* $HOME/bin
