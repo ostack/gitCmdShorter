@@ -64,6 +64,7 @@
     2.使用方式：在本地git仓库下输入[gck 文件1 文件2]
     3.使用示例：gck ./xx/file1.java ./xxx/file2.java	
 ### gl
-    1.命令功能：封装了 [git log]命令，用以还原某个修个文件
+    1.命令功能：封装了 [git log --graph --date=format:'%Y-%m-%d %H:%M:%S %A' --pretty=format:"[%an] %Cred[%h] %Cblue[%s] %Cgreen(%cd) "]
+     命令，用更简洁友好的方式显示代码提交记录
     2.使用方式：在本地git仓库下输入[gl]
     3.使用示例：gl
